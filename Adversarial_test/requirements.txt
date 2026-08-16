@@ -1,0 +1,16 @@
+# Core dependencies
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Optional - for local model support
+transformers==4.35.0
+torch==2.1.0
+
+# Optional - for OpenAI support
+openai==0.28.0
+
+# Optional - for system monitoring
+psutil==5.9.6
+
+# Optional - for progress bars
+tqdm==4.66.1

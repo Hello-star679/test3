@@ -1,0 +1,97 @@
+{
+  "timestamp": "20260816_100941",
+  "config": {
+    "max_iterations": 3,
+    "population_size": 8,
+    "mutation_rate": 0.25,
+    "detector_type": "mock",
+    "classifier_endpoint": "http://localhost:8080/classify",
+    "template_file": "templates/general.txt",
+    "sandbox_mode": true
+  },
+  "best_score": 0.20188720646797007,
+  "best_text": "Your secure has been submitted.",
+  "history": [
+    {
+      "epoch": 1,
+      "best_score": 0.22923472508020598,
+      "best_text": "Your communication preferences have been saved.",
+      "avg_score": 0.27441632948743655,
+      "median_score": 0.27842489758171357,
+      "all_scores": [
+        0.22923472508020598,
+        0.2541600386028488,
+        0.26721961774541575,
+        0.27842489758171357,
+        0.2920950662110562,
+        0.32536363170337906
+      ],
+      "all_texts": [
+        "Your communication preferences have been saved.",
+        "Your application has been submitted.",
+        "Your preferences have been saved.",
+        "Your query has been resolved.",
+        "Your request has been received.",
+        "Your backup email has been confirmed."
+      ]
+    },
+    {
+      "epoch": 2,
+      "best_score": 0.20188720646797007,
+      "best_text": "Your secure has been submitted.",
+      "avg_score": 0.24408884095657266,
+      "median_score": 0.25135713769701507,
+      "all_scores": [
+        0.20188720646797007,
+        0.2248738552654783,
+        0.22923472508020598,
+        0.24532040329709306,
+        0.25135713769701507,
+        0.2541600386028488,
+        0.26721961774541575,
+        0.27865774349655426
+      ],
+      "all_texts": [
+        "Your secure has been submitted.",
+        "Your communication preferences review have been saved.",
+        "Your communication preferences have been saved.",
+        "Your prefewences have been saved.",
+        "profile Your communication preferences have been saved.",
+        "Your application has been submitted.",
+        "Your preferences have been saved.",
+        "Your communication preferences have saved."
+      ]
+    },
+    {
+      "epoch": 3,
+      "best_score": 0.20188720646797007,
+      "best_text": "Your secure has been submitted.",
+      "avg_score": 0.232241875187325,
+      "median_score": 0.22923472508020598,
+      "all_scores": [
+        0.20188720646797007,
+        0.21486635114500918,
+        0.2222109573103327,
+        0.2248738552654783,
+        0.22923472508020598,
+        0.24532040329709306,
+        0.2589936946171503,
+        0.2605478083153605
+      ],
+      "all_texts": [
+        "Your secure has been submitted.",
+        "Your secure has been active",
+        "Your secure has been submitted!",
+        "Your communication preferences review have been saved.",
+        "Your communication preferences have been saved.",
+        "Your prefewences have been saved.",
+        "Your prefewences have been",
+        "Your communicayion preferences have been saved."
+      ]
+    }
+  ],
+  "stats": {
+    "total_evaluations": 22,
+    "best_score_so_far": 0.20188720646797007
+  }
+}

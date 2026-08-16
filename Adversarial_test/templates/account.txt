@@ -1,0 +1,16 @@
+# Account-related test phrases
+Your account has been updated successfully.
+Please verify your email address.
+We need to confirm your phone number on file.
+Your account is scheduled for routine review.
+A new device has been added to your account.
+Your profile information needs to be reviewed.
+Your account has been flagged for security review.
+Please confirm your contact information.
+Your account settings have been updated.
+New activity has been detected on your account.
+Your account has been temporarily locked for security.
+Please review your account activity.
+Your account has been associated with a new device.
+The verification process for your account is complete.
+Your account has been verified successfully.

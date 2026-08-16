@@ -1,0 +1,60 @@
+{
+  "timestamp": "20260816_100424",
+  "config": {
+    "max_iterations": 2,
+    "population_size": 5,
+    "mutation_rate": 0.25,
+    "detector_type": "mock",
+    "classifier_endpoint": "http://localhost:8080/classify",
+    "template_file": "templates/general.txt",
+    "sandbox_mode": true
+  },
+  "best_score": 0.22923472508020598,
+  "best_text": "Your communication preferences have been saved.",
+  "history": [
+    {
+      "epoch": 1,
+      "best_score": 0.22923472508020598,
+      "best_text": "Your communication preferences have been saved.",
+      "avg_score": 0.26674357665459786,
+      "median_score": 0.27842489758171357,
+      "all_scores": [
+        0.22923472508020598,
+        0.26721961774541575,
+        0.27842489758171357,
+        0.2920950662110562
+      ],
+      "all_texts": [
+        "Your communication preferences have been saved.",
+        "Your preferences have been saved.",
+        "Your query has been resolved.",
+        "Your request has been received."
+      ]
+    },
+    {
+      "epoch": 2,
+      "best_score": 0.22923472508020598,
+      "best_text": "Your communication preferences have been saved.",
+      "avg_score": 0.2595009168089038,
+      "median_score": 0.26721961774541575,
+      "all_scores": [
+        0.22923472508020598,
+        0.23538850021226843,
+        0.26721961774541575,
+        0.27865774349655426,
+        0.28700399751007455
+      ],
+      "all_texts": [
+        "Your communication preferences have been saved.",
+        "Your greferences have been saved.",
+        "Your preferences have been saved.",
+        "Your communication preferences have saved.",
+        "Your communication preferences havc been saved."
+      ]
+    }
+  ],
+  "stats": {
+    "total_evaluations": 9,
+    "best_score_so_far": 0.22923472508020598
+  }
+}

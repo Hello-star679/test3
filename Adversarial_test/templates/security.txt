@@ -1,0 +1,16 @@
+# Security-related test phrases
+Security verification required.
+Please reset your password to continue.
+We've detected unusual activity on your account.
+Your security code is ready for use.
+Please complete two-factor authentication setup.
+Security alert: Review your recent activity.
+Your device has been verified successfully.
+Your security settings have been updated.
+We've added additional security to your account.
+Your account has been protected with new security measures.
+Password reset requested for your account.
+New login attempt detected.
+Security challenge completed successfully.
+Your security verification is pending.
+Please authenticate to continue.

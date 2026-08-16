@@ -1,0 +1,91 @@
+# ============================================
+# CORE CONFIGURATION
+# ============================================
+# Detector type: mock, hf, openai, local
+DETECTOR_TYPE=hf
+
+# Use mock detector (True for initial testing)
+USE_MOCK=False
+
+# Maximum epochs to run
+MAX_EPOCHS=100
+
+# Population size per generation
+POPULATION_SIZE=30
+
+# Mutation rate (0.0 - 1.0)
+MUTATION_RATE=0.25
+
+# Elite ratio (0.0 - 1.0)
+ELITE_RATIO=0.5
+
+# Sandbox mode (True for safe testing)
+SANDBOX_MODE=True
+
+# ============================================
+# CLASSIFIER CONFIGURATION
+# ============================================
+CLASSIFIER_URL=http://localhost:8080/classify
+CLASSIFIER_TIMEOUT=10
+
+# ============================================
+# HUGGING FACE CONFIGURATION
+# ============================================
+HF_LOCAL_URL=http://localhost:8080
+HF_MODEL_NAME=your-model-name
+# HF_API_TOKEN=hf_your_token_here
+
+# ============================================
+# OPENAI CONFIGURATION
+# ============================================
+OPENAI_API_KEY=sk-your-key-here
+OPENAI_THRESHOLD=0.7
+
+# ============================================
+# LOCAL MODEL CONFIGURATION
+# ============================================
+LOCAL_MODEL_PATH=./models/classifier
+LOCAL_MODEL_LABEL=malicious
+LOCAL_MODEL_INDEX=1
+
+# ============================================
+# TEMPLATE CONFIGURATION
+# ============================================
+TEMPLATE_FILE=templates/general.txt
+USE_CATEGORIES=False
+TEMPLATE_CATEGORIES=account,security,transactions,general
+
+# ============================================
+# OUTPUT CONFIGURATION
+# ============================================
+LOG_DIR=logs
+SAVE_RESULTS=True
+VERBOSE=True
+DEBUG=False
+MAX_TEXT_LENGTH=500
+
+
+
+# Red-Team Configuration
+DETECTOR_TYPE=mock
+USE_MOCK=True
+MAX_ITERATIONS=100
+POPULATION_SIZE=50
+MUTATION_RATE=0.35
+
+# Detector Settings
+CLASSIFIER_URL=http://localhost:8080/classify
+
+# LLM Settings (for agentic blabbering)
+LLM_PROVIDER=openai
+OPENAI_API_KEY=sk-xxx
+LLM_MODEL=gpt-4
+LLM_TEMPERATURE=0.9
+
+# Attack Vectors
+ATTACK_VECTORS=phishing,social_engineering,credential_harvesting,business_email_compromise
+
+# Output
+LOG_DIR=logs
+VERBOSE=True
+SANDBOX_MODE=True
